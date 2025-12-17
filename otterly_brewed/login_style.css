@@ -1,0 +1,107 @@
+body {
+            background: linear-gradient(135deg, #8B6F47 0%, #D4A574 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'More Sugar';
+        }
+
+        .login-container {
+            background-color: #FFF8E7;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            padding: 50px;
+            max-width: 500px;
+            width: 100%;
+            border: 3px solid #6B4423;
+        }
+
+        .logo-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo-image {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .logo-text {
+            font-size: 32px;
+            font-weight: bold;
+            color: #6B4423;
+            margin: 10px 0;
+        }
+
+        .role-badge {
+            background-color: #6B4423;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .form-label {
+            color: #6B4423;
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        .form-control {
+            border: 2px solid #D4A574;
+            border-radius: 10px;
+            padding: 12px;
+            font-size: 16px;
+        }
+
+        .form-control:focus {
+            border-color: #6B4423;
+            box-shadow: 0 0 0 0.2rem rgba(107, 68, 35, 0.25);
+        }
+
+        .btn-login {
+            background-color: #6B4423;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            width: 100%;
+            margin-top: 20px;
+            transition: all 0.3s;
+        }
+
+        .btn-login:hover {
+            background-color: #4A2F18;
+            transform: scale(1.02);
+        }
+
+        .btn-back {
+            background-color: #D4A574;
+            color: #6B4423;
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+            margin-top: 10px;
+            transition: all 0.3s;
+        }
+
+        .btn-back:hover {
+            background-color: #C49564;
+        }
+
+        .login-title {
+            color: #6B4423;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
